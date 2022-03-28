@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.section1{
+    max-width: 100%;
+    height: 510px;
+    background: #293f50;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 190px 0 190px;
+    
+}
+
+.sec1h1{
+    font-weight: 100;
+    font-size: 48px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sec1h1:hover{
+    color: #648880;
+}
+
+.sec1span{
+    font-size: 21px;
+    font-weight: 300;
+    color: #648880;
+    display: block;
+    text-align: right;
+    margin-right: 12px;
+    position: relative;
+    top: 30px;
+}
+
+.sec1nav a{
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    text-align: right;
+    position: relative;
+    top: 50px;
+}
+
+.sec1nav a:hover{
+    color: #648880;
+}
+
+.sec1text{
+    display: grid;
+    place-items: center;
+    position: relative;
+    bottom: 290px;
+    font-weight: 300;
+}
+
+.texth2{
+    color: #648880;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.textp{
+    font-size: 24px;
+    line-height: 1.9;
+    margin: 0 0 22px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.textbtn{
+width: 186px;
+height: 66px;
+  font-size: 16px;
+  padding: 10px 30px;
+  background: #293f50;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.textbtn:hover{
+    color: #293f50;
+    background: #fff;
+}
+
+/* SECTION 2 */
+
+.section2{
+    max-width: 960px;
+    height: 235px;
+    margin: 0 auto;
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    bottom: 150px;
+}
+
+.sec2h5{
+    color: #a9b2b9;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 0 22px;
+}
+
+.sec2img{
+    max-width: 279px;
+    height: 197px;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+.sec2h3{
+    color: #648880;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0 0 22px;
+}
+
+.sec2p{
+    width: 260px;
+    color: #888888;
+    font-size: 16px;
+    margin: 0 0 22px;
+    
+}
