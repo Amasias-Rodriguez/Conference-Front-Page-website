@@ -85,6 +85,8 @@
 .section3{
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+    top: 90px;
 }
 
 .sec3text{
@@ -138,4 +140,34 @@
     border-bottom: 0.5px solid #dad4d4;
 }
 
+.sec3photo{
+    width: 309px;
+    height: 106px;
+    border: 1px solid red;
+}
 
+.sec3imgcont{
+    border: 1px solid #dfe2e5;
+    margin-top: 88px;
+    border-radius: 5px;
+    padding: 22px;
+}
+
+.sec3img{
+    width: 130px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 245px;
+    position: relative;
+    bottom: 100px;
+}
+
+.sec3photo ul li{
+    text-align: center;
+    list-style: none;
+    font-size: 16px;
+    color: #648880;
+    position: relative;
+    bottom: 40px;
+}
