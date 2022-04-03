@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobato', sans-serif;
+}
+
+.section1{
+    max-width: 100%;
+    height: 210px;
+    background: #293f50;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 190px 0 190px;
+    
+}
+
+.sec1h1{
+    font-weight: 100;
+    font-size: 48px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sec1h1:hover{
+    color: #648880;
+}
+
+.sec1span{
+    font-size: 21px;
+    font-weight: 600;
+    color: #648880;
+    display: block;
+    text-align: right;
+    margin-right: 12px;
+    position: relative;
+    top: 30px;
+}
+
+.sec1nav a{
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    text-align: right;
+    position: relative;
+    top: 50px;
+}
+
+.sec1nav a:hover{
+    color: #648880;
+}
+
+/* SECTION 2 */
+
+.section2{
+    max-width: 100%;
+    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+   background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+   background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+   padding: 44px 0 22px 0;
+}
+
+.sec2h1{
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0 0 22px;
+    color: #648880;
+    text-align: center;
+    justify-content: center;
+}
+
+.sec2p{
+    font-size: 21px;
+    margin: 0 0 22px;
+    color: #888888;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+/* SECTION 3 */
+
+.section3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sec3-h1{
+    font-size: 24px;
+    color: #648880;
+}
+
+.sec3span{
+    font-size: 14px;
+    color: #a9b2b9;
+    margin: 0 0 22px;
+}
+
+/* .sec3-colleft{
+    display: inline-block;
+} */
+
+.sec3p-1{
+    font-size: 16px;
+    margin: 0 0 22px;
+    color: #888888;
+}
+
+.sec3-h2{
+    font-size: 18px;
+    color: #648880;
+    margin: 0 0 22px;
+}
+
+.section3 ul li{
+    font-size: 16px;
+    color: #888888;
+    list-style: disc;
+}
+
+
+/* FOOTER */
+
+/* .footer-container{
+    max-width: 100%;
+    height: 110px;
+    position: relative;
+    top: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 240px;
+    background-color: #293f50;
+}
+
+.footer-h5{
+    font-size: 14px;
+    font-weight: 600;
+    color: #648880;
+}
+
+.footer-nav a{
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.footer-nav a:hover{
+    color: #648880;
+} */
