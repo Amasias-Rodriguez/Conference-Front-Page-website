@@ -87,26 +87,28 @@
 .section3{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    padding: 70px 0 0 200px;
 }
 
 .sec3-h1{
     font-size: 24px;
+    padding-bottom: 10px;
     color: #648880;
 }
 
 .sec3span{
     font-size: 14px;
-    color: #a9b2b9;
     margin: 0 0 22px;
+    color: #a9b2b9;
+   
 }
-
-/* .sec3-colleft{
-    display: inline-block;
-} */
 
 .sec3p-1{
     font-size: 16px;
     margin: 0 0 22px;
+    padding-top: 15px;
+    line-height: 1.5;
     color: #888888;
 }
 
@@ -119,13 +121,61 @@
 .section3 ul li{
     font-size: 16px;
     color: #888888;
-    list-style: disc;
+    list-style: square;
+    line-height: 1.5;
+    margin-left: 35px;
 }
+
+.sec3-colleft{
+    width: 309px;
+    height: 440px;
+    display: block;
+}
+
+.fieldset{
+    border: hidden;
+}
+
+label{
+    display: block;
+    font-size: 16px;
+    color: #648880;
+}
+
+input, textarea, select{
+    border: 1px solid #c6c9cc;
+    font-size: 16px;
+    display: block;
+    border-radius: 5px;
+    margin: 5px 0px 27px;
+    padding: 5px 8px;
+    color: #fff;
+}
+
+.input-width{
+    width: 297px;
+    height: 34px;
+}
+
+select, option{
+    color: #888888;
+}
+
+.button{
+    border: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 11px 30px;
+    background: #648880;
+}
+
 
 
 /* FOOTER */
 
-/* .footer-container{
+.footer-container{
     max-width: 100%;
     height: 110px;
     position: relative;
@@ -151,4 +201,4 @@
 
 .footer-nav a:hover{
     color: #648880;
-} */
+}
